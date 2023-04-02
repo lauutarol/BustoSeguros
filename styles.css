@@ -1,0 +1,55 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.headder {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(29,30,34);
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+}
+
+.navMenu {
+  margin-top: 3%;
+  position: relative;
+  left: 22%;
+}
+
+.navMenu a {
+  font-family: 'roboto', sans-serif;
+  padding: 8px;
+  text-decoration: none;
+  color: white;
+}
+
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  background-color: rgb(29,30,34)
+}
+
+.main {
+  position: relative;
+  width: 20%;
+  height: 9%;
+  background-color: rgb(139, 139, 139);
+  border-radius: 30px;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 110px;
+  background-color: yellow;
+  margin-top: 40%;
+}
+
